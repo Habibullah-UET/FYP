@@ -1,9 +1,9 @@
 # FYP
 This is our Final Year Project Repository.
-The Coders belong to this repository are;
-HABIBULLAH, Unixian@outlook.com 
-ALAM KHAN, 
-M.Suliman, 
+The Coders belong to this repository are: <br/>
+HABIBULLAH, Unixian@outlook.com  <br/>
+ALAM KHAN,   <br/> 
+M.Suliman,  <br/>
 # Setting Development Enviroment
  For the time being we just need a text editor and a Web Browser.
  (Full information on how to set development enviroment on different platform Windows,Linux are expected soon)
