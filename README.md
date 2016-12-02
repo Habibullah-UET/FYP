@@ -13,8 +13,16 @@ M.Suliman,  <br/>
 
 
 # Changelogs
+<h3> Version 1.0.3 -  (???) </h3>
+  <ui>
+        <li> Back End Design </li>
+  </ui>
 
-
+<h3> Version 1.0.1 - Nov 10, 2016 </h3>
+  <ui>
+        <li> Front End Design </li>
+        <li> Template Design </li>    
+  </ui>
 
 <h3> Version 1.0.0 - Nov 01, 2016 </h3>
   <ui>
