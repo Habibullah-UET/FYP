@@ -16,12 +16,10 @@ M.Suliman,  <br/>
 
 
 
-<h3> Version 1.0.0 - Nov 01, 2016
+<h3> Version 1.0.0 - Nov 01, 2016 </h3>
   <ui>
         <li> Initial Release </li>    
   </ui> 
-
- </h3>
 
 
 
