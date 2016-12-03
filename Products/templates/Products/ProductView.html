@@ -1,0 +1,37 @@
+{% extends 'Products/base.html' %}
+{% block body %}
+<hr>
+<center>
+    <h1> {{Product_Requested.Product_Title}} </h1>
+    <img src="{{Product_Requested.Product_Image}}" width="250" height="300">
+
+<table style="color:blue;font-size:20px">
+    <tr>
+        <td> Product Name </td>
+        <td> {{Product_Requested.Product_Title}} </td>
+    </tr>
+
+        <tr>
+        <td> Product Price </td>
+        <td> {{Product_Requested.Product_Price}} </td>
+    </tr>
+
+        <tr>
+        <td> Product Name </td>
+        <td> {{Product_Requested.Product_Title}} </td>
+    </tr>
+
+        <tr>
+        <td> Rating </td>
+        <td> {{Product_Requested.Product_Rating}} </td>
+    </tr>
+
+        <tr>
+        <td> Stock Available </td>
+        <td>  {{Product_Requested.Product_Stock}} </td>
+    </tr>
+</table>
+
+</center>
+
+{% endblock%}
