@@ -8,10 +8,10 @@ M.Suliman,  <br/>
  For the time being we just need a text editor and a Web Browser.
  (Full information on how to set development environment on different platform Windows,Linux are expected soon)
 # Output in Chrome Browser
-![Output in Chrome Browser](http://funkyimg.com/i/2ktCG.png "Output in Chrome Browser")
+![Output in Chrome Browser](http://funkyimg.com/i/2ktTm.png "Output in Chrome Browser")
 
 # Code in Visual Studo code
-![Code in Visual Studo code](http://funkyimg.com/i/2ktCU.png "Code in Visual Studo code")
+![Code in Visual Studo code](http://funkyimg.com/i/2ktTk.png "Code in Visual Studo code")
 
 
 

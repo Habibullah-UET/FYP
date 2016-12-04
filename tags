@@ -1,0 +1,123 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	Products/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_product_product_stock.py	Products/migrations/0002_product_product_stock.py	1;"	kind:file	line:1
+0003_auto_20161204_1540.py	Products/migrations/0003_auto_20161204_1540.py	1;"	kind:file	line:1
+0004_auto_20161204_1553.py	Products/migrations/0004_auto_20161204_1553.py	1;"	kind:file	line:1
+0005_auto_20161204_1555.py	Products/migrations/0005_auto_20161204_1555.py	1;"	kind:file	line:1
+0006_auto_20161204_1606.py	Products/migrations/0006_auto_20161204_1606.py	1;"	kind:file	line:1
+0007_auto_20161204_1616.py	Products/migrations/0007_auto_20161204_1616.py	1;"	kind:file	line:1
+0008_remove_product_product_description.py	Products/migrations/0008_remove_product_product_description.py	1;"	kind:file	line:1
+0009_product_product_description.py	Products/migrations/0009_product_product_description.py	1;"	kind:file	line:1
+0010_auto_20161204_1737.py	Products/migrations/0010_auto_20161204_1737.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	FYP/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:31
+AUTH_PASSWORD_VALIDATORS	FYP/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:91
+BASE_DIR	FYP/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+DATABASES	FYP/settings.py	/^DATABASES = {$/;"	kind:variable	line:80
+DEBUG	FYP/settings.py	/^DEBUG = True$/;"	kind:variable	line:29
+INSTALLED_APPS	FYP/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:36
+LANGUAGE_CODE	FYP/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:110
+MEDIA_ROOT	FYP/settings.py	/^MEDIA_ROOT = os.path.join(BASE_DIR, 'Media')$/;"	kind:variable	line:18
+MEDIA_URL	FYP/settings.py	/^MEDIA_URL = '\/Media\/'$/;"	kind:variable	line:19
+MIDDLEWARE	FYP/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:46
+Migration	Products/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	Products/migrations/0002_product_product_stock.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	Products/migrations/0003_auto_20161204_1540.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	Products/migrations/0004_auto_20161204_1553.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	Products/migrations/0005_auto_20161204_1555.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	Products/migrations/0006_auto_20161204_1606.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	Products/migrations/0007_auto_20161204_1616.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	Products/migrations/0008_remove_product_product_description.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	Products/migrations/0009_product_product_description.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Migration	Products/migrations/0010_auto_20161204_1737.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:8
+Product	Products/models.py	/^class Product (models.Model) :$/;"	kind:class	line:10
+Product_Description	Products/models.py	/^    Product_Description = models.TextField( max_length = 1000 , blank=True  )$/;"	kind:variable	line:13
+Product_Image	Products/models.py	/^    Product_Image = models.FileField()$/;"	kind:variable	line:12
+Product_Price	Products/models.py	/^    Product_Price = models.CharField(max_length= 5)$/;"	kind:variable	line:14
+Product_Rating	Products/models.py	/^    Product_Rating = models.CharField(max_length=3)$/;"	kind:variable	line:15
+Product_Stock	Products/models.py	/^    Product_Stock  = models.CharField( max_length = 5 , blank = True)$/;"	kind:variable	line:16
+Product_Title	Products/models.py	/^    Product_Title = models.CharField( max_length= 200 )$/;"	kind:variable	line:11
+ProductsConfig	Products/apps.py	/^class ProductsConfig(AppConfig):$/;"	kind:class	line:4
+ROOT_URLCONF	FYP/settings.py	/^ROOT_URLCONF = 'FYP.urls'$/;"	kind:variable	line:56
+SECRET_KEY	FYP/settings.py	/^SECRET_KEY = '%fefpj^g1!%u)b(u%s8lgzya!b*qw^%m&11@jxkw#3vzevg(+p'$/;"	kind:variable	line:26
+STATIC_URL	FYP/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:124
+TEMPLATES	FYP/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:58
+TIME_ZONE	FYP/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:112
+USE_I18N	FYP/settings.py	/^USE_I18N = True$/;"	kind:variable	line:114
+USE_L10N	FYP/settings.py	/^USE_L10N = True$/;"	kind:variable	line:116
+USE_TZ	FYP/settings.py	/^USE_TZ = True$/;"	kind:variable	line:118
+WSGI_APPLICATION	FYP/settings.py	/^WSGI_APPLICATION = 'FYP.wsgi.application'$/;"	kind:variable	line:74
+__init__.py	FYP/__init__.py	1;"	kind:file	line:1
+__init__.py	Products/__init__.py	1;"	kind:file	line:1
+__init__.py	Products/migrations/__init__.py	1;"	kind:file	line:1
+__str__	Products/models.py	/^    def __str__(self) :$/;"	kind:member	line:18
+admin.py	Products/admin.py	1;"	kind:file	line:1
+app_name	Products/urls.py	/^app_name = 'Products'$/;"	kind:variable	line:7
+application	FYP/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	Products/apps.py	1;"	kind:file	line:1
+dependencies	Products/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:12
+dependencies	Products/migrations/0002_product_product_stock.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	Products/migrations/0003_auto_20161204_1540.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	Products/migrations/0004_auto_20161204_1553.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	Products/migrations/0005_auto_20161204_1555.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	Products/migrations/0006_auto_20161204_1606.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	Products/migrations/0007_auto_20161204_1616.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	Products/migrations/0008_remove_product_product_description.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	Products/migrations/0009_product_product_description.py	/^    dependencies = [$/;"	kind:variable	line:10
+dependencies	Products/migrations/0010_auto_20161204_1737.py	/^    dependencies = [$/;"	kind:variable	line:10
+detail	Products/views.py	/^def detail (Request, Product_ID) :$/;"	kind:function	line:17
+field	Products/migrations/0002_product_product_stock.py	/^            field=models.CharField(blank=True, max_length=5),$/;"	kind:variable	line:18
+field	Products/migrations/0003_auto_20161204_1540.py	/^            field=models.ImageField(upload_to=''),$/;"	kind:variable	line:18
+field	Products/migrations/0004_auto_20161204_1553.py	/^            field=models.ImageField(upload_to='Media'),$/;"	kind:variable	line:18
+field	Products/migrations/0005_auto_20161204_1555.py	/^            field=models.ImageField(upload_to='\/Media'),$/;"	kind:variable	line:18
+field	Products/migrations/0006_auto_20161204_1606.py	/^            field=models.ImageField(upload_to=''),$/;"	kind:variable	line:18
+field	Products/migrations/0007_auto_20161204_1616.py	/^            field=models.FileField(upload_to=''),$/;"	kind:variable	line:18
+field	Products/migrations/0009_product_product_description.py	/^            field=models.CharField(blank=True, max_length=1000),$/;"	kind:variable	line:18
+field	Products/migrations/0010_auto_20161204_1737.py	/^            field=models.TextField(blank=True, max_length=1000),$/;"	kind:variable	line:18
+fields	Products/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:18
+index	Products/views.py	/^def index(Request) :$/;"	kind:function	line:12
+initial	Products/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:10
+manage.py	manage.py	1;"	kind:file	line:1
+model_name	Products/migrations/0002_product_product_stock.py	/^            model_name='product',$/;"	kind:variable	line:16
+model_name	Products/migrations/0003_auto_20161204_1540.py	/^            model_name='product',$/;"	kind:variable	line:16
+model_name	Products/migrations/0004_auto_20161204_1553.py	/^            model_name='product',$/;"	kind:variable	line:16
+model_name	Products/migrations/0005_auto_20161204_1555.py	/^            model_name='product',$/;"	kind:variable	line:16
+model_name	Products/migrations/0006_auto_20161204_1606.py	/^            model_name='product',$/;"	kind:variable	line:16
+model_name	Products/migrations/0007_auto_20161204_1616.py	/^            model_name='product',$/;"	kind:variable	line:16
+model_name	Products/migrations/0008_remove_product_product_description.py	/^            model_name='product',$/;"	kind:variable	line:16
+model_name	Products/migrations/0009_product_product_description.py	/^            model_name='product',$/;"	kind:variable	line:16
+model_name	Products/migrations/0010_auto_20161204_1737.py	/^            model_name='product',$/;"	kind:variable	line:16
+models.py	Products/models.py	1;"	kind:file	line:1
+name	Products/apps.py	/^    name = 'Products'$/;"	kind:variable	line:5
+name	Products/migrations/0001_initial.py	/^            name='Product',$/;"	kind:variable	line:17
+name	Products/migrations/0002_product_product_stock.py	/^            name='Product_Stock',$/;"	kind:variable	line:17
+name	Products/migrations/0003_auto_20161204_1540.py	/^            name='Product_Image',$/;"	kind:variable	line:17
+name	Products/migrations/0004_auto_20161204_1553.py	/^            name='Product_Image',$/;"	kind:variable	line:17
+name	Products/migrations/0005_auto_20161204_1555.py	/^            name='Product_Image',$/;"	kind:variable	line:17
+name	Products/migrations/0006_auto_20161204_1606.py	/^            name='Product_Image',$/;"	kind:variable	line:17
+name	Products/migrations/0007_auto_20161204_1616.py	/^            name='Product_Image',$/;"	kind:variable	line:17
+name	Products/migrations/0008_remove_product_product_description.py	/^            name='Product_Description',$/;"	kind:variable	line:17
+name	Products/migrations/0009_product_product_description.py	/^            name='Product_Description',$/;"	kind:variable	line:17
+name	Products/migrations/0010_auto_20161204_1737.py	/^            name='Product_Description',$/;"	kind:variable	line:17
+operations	Products/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:15
+operations	Products/migrations/0002_product_product_stock.py	/^    operations = [$/;"	kind:variable	line:14
+operations	Products/migrations/0003_auto_20161204_1540.py	/^    operations = [$/;"	kind:variable	line:14
+operations	Products/migrations/0004_auto_20161204_1553.py	/^    operations = [$/;"	kind:variable	line:14
+operations	Products/migrations/0005_auto_20161204_1555.py	/^    operations = [$/;"	kind:variable	line:14
+operations	Products/migrations/0006_auto_20161204_1606.py	/^    operations = [$/;"	kind:variable	line:14
+operations	Products/migrations/0007_auto_20161204_1616.py	/^    operations = [$/;"	kind:variable	line:14
+operations	Products/migrations/0008_remove_product_product_description.py	/^    operations = [$/;"	kind:variable	line:14
+operations	Products/migrations/0009_product_product_description.py	/^    operations = [$/;"	kind:variable	line:14
+operations	Products/migrations/0010_auto_20161204_1737.py	/^    operations = [$/;"	kind:variable	line:14
+settings.py	FYP/settings.py	1;"	kind:file	line:1
+tests.py	Products/tests.py	1;"	kind:file	line:1
+urlpatterns	FYP/urls.py	/^urlpatterns = [$/;"	kind:variable	line:10
+urlpatterns	Products/urls.py	/^urlpatterns = [$/;"	kind:variable	line:9
+urls.py	FYP/urls.py	1;"	kind:file	line:1
+urls.py	Products/urls.py	1;"	kind:file	line:1
+views.py	Products/views.py	1;"	kind:file	line:1
+wsgi.py	FYP/wsgi.py	1;"	kind:file	line:1
