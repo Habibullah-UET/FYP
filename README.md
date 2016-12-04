@@ -10,8 +10,8 @@ M.Suliman,  <br/>
 # Output in Chrome Browser
 ![Output in Chrome Browser](http://funkyimg.com/i/2ktCG.png "Output in Chrome Browser")
 
-# Output in Chrome Browser
-![Code in Visual Studo ](http://funkyimg.com/i/2ktCU.png "Output in Chrome Browser")
+# Code in Visual Studo code
+![Code in Visual Studo code](http://funkyimg.com/i/2ktCU.png "Code in Visual Studo code")
 
 
 
