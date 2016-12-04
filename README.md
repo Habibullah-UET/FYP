@@ -19,7 +19,7 @@ M.Suliman,  <br/>
 <h3> Version 1.0.4 -  (Dec 4, 2016 , 5:00 PM) </h3>
   <ui>
         <li> Resolved issues about Uploading images from Disk </li>
-        <li> Resolved issues  ERROR 404 at  127.0.0.1:800 </li>
+        <li> Resolved issue of  ERROR 404 at  127.0.0.1:800 </li>
   </ui>
 
 <h3> Version 1.0.3 -  (Dec 4, 2016) </h3>
