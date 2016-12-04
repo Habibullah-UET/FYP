@@ -9,7 +9,7 @@ from django.db import models
 
 class Product (models.Model) :
     Product_Title = models.CharField( max_length= 200 )
-    Product_Image = models.CharField( max_length=100  )
+    Product_Image = models.FileField()
     Product_Description = models.CharField( max_length = 500  )
     Product_Price = models.CharField(max_length= 5)
     Product_Rating = models.CharField(max_length=3)
