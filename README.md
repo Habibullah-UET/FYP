@@ -13,9 +13,9 @@ M.Suliman,  <br/>
 
 
 # Changelogs
-<h3> Version 1.0.3 -  (???) </h3>
+<h3> Version 1.0.3 -  (Dec 4, 2016) </h3>
   <ui>
-        <li> Back End Design </li>
+        <li> Back End Design Phase I </li>
   </ui>
 
 <h3> Version 1.0.1 - Nov 10, 2016 </h3>
