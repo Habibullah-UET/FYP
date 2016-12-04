@@ -10,7 +10,7 @@ from django.db import models
 class Product (models.Model) :
     Product_Title = models.CharField( max_length= 200 )
     Product_Image = models.FileField()
-    Product_Description = models.CharField( max_length = 500  )
+    Product_Description = models.TextField( max_length = 1000 , blank=True  )
     Product_Price = models.CharField(max_length= 5)
     Product_Rating = models.CharField(max_length=3)
     Product_Stock  = models.CharField( max_length = 5 , blank = True)

@@ -22,3 +22,4 @@ if settings.DEBUG:
 #         url(r'^Media/(?P<path>.*)$', 'django.views.static.serve', {
 #             'document_root': settings.MEDIA_ROOT,
 #         }),
+admin.site.site_header = '# root'
