@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> FYP Project</title>
+
+    {% load staticfiles %}
+        <link rel="icon" href="{% static 'favicon.png' %}"                
+        <!--Bootstrap CSS File-->    
+        <link href="{% static 'Products/CSS/bootstrap.css' %}" rel="stylesheet" type="text/css" media="all" />
+        <!--theme-style CSS File-->
+        <link href="{% static 'Products/CSS/style1.css' %}" rel="stylesheet" type="text/css" media="all" />
+
+        <!-- Javascript File -->
+        <script type="application/x-javasc ript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <!--JQuery Library-->
+        <script src="{% static 'Products/JS/jquery-3.1.1.min.js' %}"></script>
+
+        <script src="{% static 'Products/JS/bootstrap.min.js' %}"></script>
+
+        <!--fonts-->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+    
+<body> 
+        <!-- Top Bar -->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <!--Logo -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Menu">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="{% url 'Products:index' %}" class="navbar-brand"> BIG SHOPE   </a>
+                </div>
+
+                <!-- Menu items -->
+                <div class="collapse navbar-collapse" id="Menu">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#"> Home </a></li>
+                        <li>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Profile <span class="caret"></span> </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"> <h1> {{request.user.username}} </h1> </a></li>
+                                <li><a href="#"> View </a></li>
+                                <li><a href="#"> Settings </a></li>
+                                <li><a href="#"> Photos </a></li>
+                                <li><a href="#"> Friends </a></li>
+                                <li><a href="{% url 'Products:logout' %}"> Logout </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#"> About </a></li>
+                        <li><a href="#"> Contact </a></li>
+                        <li><a href="#"> FAQ </a></li>
+                    </ul>
+                   
+                    <ul class="nav navbar-nav navbar-right">
+                         {% if request.user.username %}
+                            <li> <a href="#" >  Hello   {{request.user.username}} !  </a> </li>  
+
+                            <li>
+                                <a href="{% url 'Products:logout' %}">
+                                    <i class="glyphicon glyphicon-off"></i> &nbsp; Logout
+                                </a>
+                            </li >
+
+                         {% else %}
+                            <li> <a href="#" >  Annonymious!  </a> </li> 
+                        {% endif %}
+
+
+                    </ul>
+                   
+                </div>
+            </div>
+        </nav>   
+        <!-- Top Bar End -->	
+        
+        <!-- bottom-Header in Header-->
+        <div class="bottom-header">
+            <div class="container-fluid">
+                <!-- Left Bottom Header --> 
+				<div class="header-bottom-left">
+					<div class="logo">
+						<a href="{% url 'Products:index' %}"><img src="{% static 'Products/images/logo.png' %}" alt=" " /></a>
+					</div>
+                    
+                    <div class="search">
+						<!--  Click Inside The Text Field (When You Give It The Focus),
+							  It's Value Should Replaced With Empty String,And When 
+							  Click Outside It,JavaScript Will Check If It's Value Is 
+							  An Empty String,If This Condition Is True,Then 
+							  The Value Remain An Empty String -->
+						<input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" >
+						<input type="submit"  value="SEARCH">
+					</div>
+					<div class="clearfix"> </div>
+			    </div>
+                
+                <!-- Right Bottom Header -->
+                <div class="header-bottom-right">					
+				    <div class="account">
+                        <a href="login.html"><span> </span>YOUR ACCOUNT</a>
+                    </div>
+				    
+                    <ul class="login">
+				        <li><a href="{% url 'Products:login' %}"><span> </span>LOGIN</a></li> |
+				        <li ><a href="{% url 'Products:register' %}">SIGNUP</a></li>
+				    </ul>
+						
+                    <div class="cart">
+                        <a href="#"><span> </span>CART</a>
+                    </div>
+					<div class="clearfix"> </div>
+				</div> <!-- End of Right Bottom Header -->
+                <div class="clearfix"> </div>
+            
+            </div> <!-- End of the Container-->
+        </div> <!-- End of the bottom-Header-->
+	
+    </div> <!-- End of the Header-->
+
+
+ <!-- Start sub-cate  -->    
+    <div class="sub-cate">
+        <div class=" top-nav rsidebar span_1_of_left">
+            <h3 class="cate">CATEGORIES</h3>
+            
+            <!-- Start menu -->
+            <ul class="menu">
+                
+                <li class="item1"><a href="#">Mobile<img class="arrow-img" src="{% static 'Products/images/arrow.png' %}" alt=""/> </a>
+			     <ul class="cute">
+                    <li class="subitem1"><a href="product.html">Mobile Phones </a></li>
+                    <li class="subitem2"><a href="product.html">Tablets </a></li>
+                    <li class="subitem3"><a href="product.html">Accessories </a></li>
+			     </ul>
+		        </li>
+                
+                <li class="item2"><a href="#">Clothes <img class="arrow-img " src="{% static 'Products/images/arrow.png' %}" alt=""/></a>
+			     <ul class="cute">
+                    <li class="subitem1"><a href="product.html">Men's </a></li>
+                    <li class="subitem2"><a href="product.html">Women's </a></li>
+                    <li class="subitem3"><a href="product.html">Baby </a></li>
+			     </ul>
+		        </li>
+                
+                <li class="item3">
+                 <a href="#">Computer<img class="arrow-img img-arrow" src="{% static 'Products/images/arrow.png' %}" alt=""/> </a>
+                 <ul class="cute">
+                    <li class="subitem1"><a href="product.html">Computer </a></li>
+                    <li class="subitem2"><a href="product.html">Laptop </a></li>
+                    <li class="subitem3"><a href="product.html">Accessories</a></li>
+			     </ul>
+		        </li>
+		
+                <li class="item4">
+                 <a href="#">Home Appliances <img class="arrow-img img-left-arrow" src="{% static 'Products/images/arrow.png' %}" alt=""/></a>
+                 <ul class="cute">
+                    <li class="subitem1"><a href="product.html">Large Appliances </a></li>
+                    <li class="subitem2"><a href="product.html">Small Appliances </a></li>
+                    <li class="subitem3"><a href="product.html">Kitchen Appliances </a></li>
+			     </ul>
+		        </li>
+				
+                <li>
+                 <ul class="kid-menu">
+                    <li><a href="product.html">Perfumes</a></li>
+                    <li ><a href="product.html">Sports</a></li>
+                    <li ><a href="product.html">Cameras</a></li>
+			     </ul>
+		        </li>
+                
+                    
+            </ul><!-- End menu -->
+        </div>
+        
+        <!--initiate accordion-->
+		<script type="text/javascript">
+			$(function() {
+			    var menu_ul = $('.menu > li > ul'),
+			           menu_a  = $('.menu > li > a');
+			           menu_ul.hide();
+			           menu_a.click(function(e) {
+			           e.preventDefault();
+			        
+                       if(!$(this).hasClass('active')) 
+                       {
+			             menu_a.removeClass('active');
+			             menu_ul.filter(':visible').slideUp('normal');
+			             $(this).addClass('active').next().stop(true,true).slideDown('normal');
+			           } 
+                       else 
+                       {
+			             $(this).removeClass('active');
+			             $(this).next().stop(true,true).slideUp('normal');
+			           }
+			    });
+			
+			});
+		 </script>
+        
+    </div><!-- END sub-cate  -->
+        
+    </div><!-- End of the container -->
+
+    {% block body %}
+    {% endblock %}
+</body>
+</html>
+    
