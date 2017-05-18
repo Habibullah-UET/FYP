@@ -1,0 +1,26 @@
+{% extends 'Products/base.html' %}
+
+{% block body %}
+<br><br>
+<div class="container-fluid">
+  <div class="row">
+        <div class="col-sm-12 col-md-7">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <form class="form-horizental" action="#" method="post">
+                        {% csrf_token %}
+                        <!-- Never repeat your self -->
+                        {% include 'Products/form_template.html' %}
+                        <div class="from-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-success"> Submit </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+ </div>
+</div>
+
+{% endblock %}
